@@ -1,0 +1,25 @@
+{
+  "name": "my-apps",
+  "version": "1.0.0",
+  "description": "Frontend and Backend Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/script-ahmad183/my-apps.git"
+  },
+  "keywords": [
+    "frontend",
+    "backend",
+    "nodejs",
+    "res"
+  ],
+  "author": "Ahmad Revi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/script-ahmad183/my-apps/issues"
+  },
+  "homepage": "https://github.com/script-ahmad183/my-apps#readme"
+}
