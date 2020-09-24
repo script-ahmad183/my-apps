@@ -13,4 +13,7 @@ module.exports = function(app){
     //menampilkan data user by ID
     app.route('/data-user/:id')
         .get(jsonku.datauserbyid);
+    //menambah data user by ID
+    app.route('/tambah-user')
+        .post(jsonku.tambahuser);
 }
