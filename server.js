@@ -10,6 +10,6 @@ app.use(bodyParser.json());
 var routes = require('./routes');
 routes(app);
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log(`Aplikasi berjalan di port 3000`);
 });
