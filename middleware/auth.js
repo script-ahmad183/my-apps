@@ -12,17 +12,17 @@ exports.registrasi = function(req, res){
     var post = {
         username : req.body.username,
         email : req.body.email,
-        nama = req.body.nama,
-        password = req.body.password,
-        level = req.body.level
+        nama : req.body.nama,
+        password : req.body.password,
+        level : req.body.level
     }
 
-    var query = "SELECT email FROM ?? WHERE ??";
-    var table = ("user","email", post.email);
+    var query = "SELECT email FROM ?? WHERE email=??";
+    var table = ["user","email", post.email];
 
     query = mysql.format(query,table);
 
-    connection.query(query, function(error,row){
+    connection.query(query, function(error,rows){
         if(error){
             console.log(error);
         }else{
