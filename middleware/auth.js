@@ -93,3 +93,8 @@ exports.login = function(req, res){
         }
     });
 }
+
+//Halaman Admin
+exports.halamanadmin = function(req, res){
+    response.ok("Admin Page", res);
+}
